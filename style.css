@@ -1,0 +1,2192 @@
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.read-more .rightarow {
+    margin-left: 5px;
+    width: 40px;
+    margin-bottom: -8.5px;
+}
+
+.read-more span {
+    color: white;
+}
+
+.header .log {
+    margin: 5px;
+    width: 40px;
+    /* Adjust the size of the logo */
+    height: 40px;
+    /* filter: drop-shadow(2px 2px red) drop-shadow(-2px -2px 0 red); */
+    /* Red outline effect */
+    object-fit: contain;
+}
+
+
+
+.header-left h1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    /* Vertically aligns the text and logo */
+    gap: 10x;
+    /* Adds spacing between the logo and text */
+    margin-left: 50px;
+    /* Maintain consistent left margin */
+    font-weight: 700;
+    /* Adjusted weight for boldness */
+}
+
+
+.menu ul {
+    width: 100%;
+    list-style: none;
+    margin-left: 90px;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+.menu ul li {
+    font-size: 14px;
+    font-weight: 500;
+    /* Adjust weight for readability */
+    cursor: pointer;
+
+}
+
+.header-right {
+    text-align: right;
+}
+
+.action {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.action .star,
+.action .man-sticker {
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.language-selector {
+    padding: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    border: none;
+}
+
+.request-box {
+    margin-top: 10px;
+    background-color: #F65275;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    /* Highlight the text */
+}
+
+.request-box a {
+    color: white;
+}
+
+.banner {
+    width: 100%;
+    /* Full width */
+    height: 365px;
+    /* Adjust the height as needed */
+    background-image: url('SECTION 1/BACKGROUND.png');
+    /* Replace with your image URL */
+    background-size: cover;
+    /* Ensure the image covers the entire div */
+    background-position: center;
+    /* Center the background image */
+    background-repeat: no-repeat;
+    /* Prevent repeating the image */
+    display: flex;
+    /* Use flexbox for layout */
+    justify-content: space-between;
+    /* Space between text and image */
+    align-items: center;
+    /* Vertically center the content */
+    position: relative;
+    /* To keep content in place */
+}
+
+.banner-text {
+    margin-left: 50px;
+    color: white;
+    padding: 20px;
+    /* width: 35%; */
+    /* Control the width of the text */
+    text-align: left;
+    /* Align the text to the left */
+}
+
+.banner-text h1 {
+    font-size: 35px;
+    margin: 17px;
+    margin-bottom: 40px;
+}
+
+.banner-text p {
+
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+/* Right-side image styling (first image) */
+.banner-image {
+
+    margin-bottom: -50px;
+    margin-right: 85px;
+    max-width: 264px;
+    /* Keep the original size */
+    height: 295.55px;
+    /* Maintain aspect ratio */
+    object-fit: contain;
+    /* Ensure the image fits within the given area */
+}
+
+/* New second image below the right image (no margin/padding) */
+.second-image {
+    margin-left: -12px;
+    margin-top: 10px;
+    width: 290px;
+    /* Full width, keep the size of the second image consistent */
+    height: auto;
+    /* Maintain aspect ratio */
+    object-fit: contain;
+    /* Ensure the image fits properly */
+    overflow: hidden;
+    /* visibility: collapse; */
+}
+
+/* Styling for the 'Read More' button with arrow */
+.read-more {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 23px;
+}
+
+.read-more .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    /* Hollow circle */
+    border: 2px solid white;
+    /* Border color for hollow circle */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    /* Space between text and circle */
+    position: relative;
+}
+
+.read-more .circle .arrow {
+    position: absolute;
+    bottom: 5px;
+    left: -8px;
+    /* Move arrow to intersect with circle */
+    font-size: 20px;
+    /* Arrow size */
+}
+
+.read-more .circle:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    /* Small dot in the middle */
+    background-color: white;
+    /* Dot inside the circle */
+}
+
+.secondsection {
+    /* height: 950px; */
+    background-image: url('SECTION 2/white_polygon\ 1\ \(1\).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    position: relative;
+}
+
+.secondsection h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    background: linear-gradient(to left, #115988, #F4C72D);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.secondsection-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+    height: auto;
+}
+
+/* Horizontal Faded Line */
+.faded-line {
+    width: 80%;
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%);
+    /* margin: 5px ; */
+}
+
+.faded-line1 {
+    width: 66px;
+    height: 3px;
+    background-color: white;
+    /* margin: 5px ; */
+}
+
+/* Services Container */
+.services-container {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* Individual Service Divs */
+.service-div {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    /* background-color: #fff; */
+    /* margin: 0 5px; */
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    /* Ensures text appears above the lines */
+}
+
+/* Vertical Fade Lines between Divs */
+/* Vertical Fade Lines between Divs */
+.service-div::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    /* Ensure the line aligns with the right edge */
+    width: 1px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%);
+    z-index: 2;
+    /* Keep it on top */
+}
+
+/* Remove line from the last div */
+.service-div:last-child::after {
+    content: none;
+}
+
+.service-div:last-child::before {
+    display: none;
+    /* Remove line after the last div */
+}
+
+/* Second Horizontal Faded Line */
+.faded-line:nth-child(3) {
+    width: 80%;
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%);
+    margin-top: 20px;
+}
+
+/* Horizontal Faded Line */
+.faded-line {
+    width: 80%;
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%);
+    /* margin: 20px auto; */
+    opacity: 50%;
+}
+
+/* Services Container */
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 20px 0;
+    position: relative;
+}
+
+/* Individual Service Divs */
+.service-div {
+    flex: 1;
+    text-align: left;
+    font-weight: lighter;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    /* background-color: #fff; */
+    margin: 0 5px;
+    /* border-radius: 5px; */
+    position: relative;
+    z-index: 1;
+}
+.service-div1 {
+    flex: 1;
+    text-align: left;
+    font-weight: lighter;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    /* background-color: #fff; */
+    margin: 0 5px;
+    /* border-radius: 5px; */
+    position: relative;
+    z-index: 1;
+}
+
+.services-container img {
+    margin-right: -10px;
+    margin-left: 50px;
+}
+
+.thirdheading {
+    display: flex;
+}
+
+.thirdheading img {
+    margin-left: 7px;
+    margin-top: 27.4px;
+    width: 119px;
+    height: 13.31px;
+    /* height: 40px; */
+}
+
+.subheading3 {
+    word-spacing: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F65275;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+}
+
+.v331_2 {
+    width: 511px;
+    height: 202px;
+    background: rgba(252, 252, 252, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(234, 234, 234, 1);
+    overflow: hidden;
+}
+
+.v102_87 {
+    width: 179px;
+    color: linear-gradient(rgba(17, 89, 136, 1), rgba(244, 199, 45, 1));
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    font-family: Nunito Sans;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v141_496 {
+    width: 454px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 89px;
+    left: 28px;
+    overflow: hidden;
+}
+
+
+.v141_4961 {
+    width: 454px;
+    height: 90px;
+    opacity: 1;
+    position: absolute;
+    top: 89px;
+    left: 28px;
+    /* overflow: hidden; */
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.v141_497 {
+    width: 454px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 89px;
+    left: 28px;
+    overflow: hidden;
+}
+
+.v117_2 {
+    width: 454px;
+    height: 36px;
+    background: rgba(247, 247, 247, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(230, 230, 230, 1);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    overflow: hidden;
+}
+
+.v117_21 {
+    width: 454px;
+    height: 100px;
+    background: rgba(247, 247, 247, 1);
+    opacity: 1;
+    border: 1px solid rgba(230, 230, 230, 1);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.coloumn2 {
+    display: flex;
+}
+
+.v102_92 {
+    width: 128px;
+    color: rgba(33, 37, 41, 1);
+    position: absolute;
+    top: 10px;
+    left: 163px;
+    font-family: Nunito Sans;
+    font-weight: SemiBold;
+    font-size: 14px;
+    opacity: 1;
+    /* margin-top: 25px; */
+    text-align: center;
+
+}
+.v102_921 {
+    /* width: 128px; */
+    color: rgba(33, 37, 41, 1);
+    position: absolute;
+    top: 10px;
+    left: 163px;
+    font-family: Nunito Sans;
+    font-weight: SemiBold;
+    font-size: 14px;
+    opacity: 1;
+    margin-top: 27px;
+    text-align: center;
+
+}
+
+.v141_497 {
+    width: 222px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 135px;
+    left: 28px;
+    overflow: hidden;
+}
+
+.v141_498 {
+    width: 222px;
+    height: 36px;
+    background: rgba(247, 247, 247, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(230, 230, 230, 1);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    overflow: hidden;
+}
+
+.v141_499 {
+    width: 124px;
+    color: rgba(33, 37, 41, 1);
+    position: absolute;
+    top: 10px;
+    left: 49px;
+    font-family: Nunito Sans;
+    font-weight: SemiBold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v175_108 {
+    width: 222px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 135px;
+    left: 260px;
+    overflow: hidden;
+}
+
+.v175_109 {
+    width: 222px;
+    height: 36px;
+    background: rgba(247, 247, 247, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(230, 230, 230, 1);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    overflow: hidden;
+}
+
+.v175_110 {
+    width: 128px;
+    color: rgba(33, 37, 41, 1);
+    position: absolute;
+    top: 10px;
+    left: 47px;
+    font-family: Nunito Sans;
+    font-weight: SemiBold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: center;
+}
+
+.bigdiv {
+    display: flex;
+}
+
+.v50850_9 {
+    display: flex;
+    width: 511px;
+    height: 202px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    margin-top: 50px;
+    /* margin-right: 520px; */
+    position: relative;
+    /* top: 23px; */
+    /* left: 155px; */
+}
+
+.v50850_10 {
+    display: flex;
+    width: 511px;
+    height: 202px;
+    justify-content: center;
+    align-items: center;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    background-size: cover;
+    opacity: 1;
+    margin-top: 50px;
+    /* margin-left: 520px; */
+    position: relative;
+    /* top: 23px; */
+    /* left: 155px; */
+}
+
+.v50823_4 {
+    width: 175px;
+    height: 46px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 23px;
+    left: 307px;
+    overflow: hidden;
+}
+
+.div4 {
+    width: 46px;
+    height: 46px;
+    background: rgba(255, 255, 255, 1);
+    background-image: url("SECTION 2/MODERN_WORKLOADS/STICKER_4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 129px;
+    border-radius: 50%;
+}
+
+.div2 {
+    width: 46px;
+    height: 46px;
+    background: rgba(255, 255, 255, 1);
+    background-image: url("SECTION 2/MODERN_WORKLOADS/STICKER_2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 86px;
+    border-radius: 50%;
+}
+
+.div3 {
+    width: 46px;
+    height: 46px;
+    background: rgba(255, 255, 255, 1);
+    background-image: url("SECTION 2/MODERN_WORKLOADS/STICKER_3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 43px;
+    border-radius: 50%;
+}
+
+.div1 {
+    width: 46px;
+    height: 46px;
+    background: rgba(255, 255, 255, 1);
+    background-image: url("SECTION 2/MODERN_WORKLOADS/STICKER_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+}
+
+
+
+.container-unique {
+    display: flex;
+    gap: 20px;
+}
+
+.unique21 {
+    display: flex;
+}
+
+.box-unique-1,
+.box-unique-2,
+.box-unique-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 341px;
+    height: 87px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.unique21 h2 {
+    /* margin-top: 50px; */
+    text-align: left;
+    /* font-size: 50px; */
+    background: linear-gradient(to left, #115988, #F4C72D);
+    -webkit-background-clip: text;
+    color: transparent;
+    /* font-weight: bold; */
+    /* font-size: 36px; */
+}
+
+.unique22 h2 {
+    /* margin-top: 50px; */
+    text-align: center;
+    /* font-size: 50px; */
+    background: linear-gradient(to left, #115988, #F4C72D);
+    -webkit-background-clip: text;
+    color: transparent;
+    /* font-weight: bold; */
+    /* font-size: 36px; */
+}
+
+.text-unique-1,
+.text-unique-2,
+.text-unique-3 {
+    width: 100%;
+    /* margin-left: 10px; */
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    justify-content: left;
+}
+
+.images-unique-1,
+.images-unique-2,
+.images-unique-3 {
+
+    margin-right: 25px;
+    display: flex;
+    /* gap: 5px; */
+
+}
+
+.images-unique-1 div,
+.images-unique-2 div,
+.images-unique-3 div {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin-right: -1px;
+}
+
+.div1_1 {
+    background-image: url("SECTION 2/PAAS_STICKER/STICKER_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div1_2 {
+    background-image: url("SECTION 2/PAAS_STICKER/STICKER_2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div1_3 {
+    background-image: url("SECTION 2/PAAS_STICKER/STICKER_3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div1_4 {
+    background-image: url("SECTION 2/PAAS_STICKER/STICKER_4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div1_5 {
+    background-image: url("SECTION 2/IaaS_STICKER/Network.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div1_6 {
+    background-image: url("SECTION 2/IaaS_STICKER/storage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div1_7 {
+    background-image: url("SECTION 2/IaaS_STICKER/compute.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div1_8 {
+    background-image: url("SECTION 2/PaaS_2_STICKER/STICKER_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div1_9 {
+    background-image: url("SECTION 2/PaaS_2_STICKER/STICKER2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div1_10 {
+    background-image: url("SECTION 2/PaaS_2_STICKER/STICKER_3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div2_1 {
+    background-image: url("SECTION 2/PUBLIC_CLOUD_STICKER/STICKER_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div2_2 {
+    background-image: url("SECTION 2/PUBLIC_CLOUD_STICKER/STICKER_2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div2_3 {
+    background-image: url("SECTION 2/PUBLIC_CLOUD_STICKER/STICKER_3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div2_4 {
+    background-image: url("SECTION 2/EXISTING_PLATFORMS_STICKER/STICKER_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div2_5 {
+    background-image: url("SECTION 2/EXISTING_PLATFORMS_STICKER/STICKER_2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div2_6 {
+    background-image: url("SECTION 2/EXISTING_PLATFORMS_STICKER/STICKER_3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div2_7 {
+    background-image: url("SECTION 2/EXISTING_PLATFORMS_STICKER/STICKER_4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div2_8 {
+    background-image: url("SECTION 2/PRIVATE_CLOUD_STICKER/STICKER_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div2_9 {
+    background-image: url("SECTION 2/PRIVATE_CLOUD_STICKER/STICKER_2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div2_10 {
+    background-image: url("SECTION 2/PRIVATE_CLOUD_STICKER/STICKER_3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div2_11 {
+    background-image: url("SECTION 2/PRIVATE_CLOUD_STICKER/STICKER_4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.unique22 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1023px;
+    height: 106px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px;
+}
+
+.unique22_1 {
+    width: 703px;
+    height: 38px;
+    border: 2px solid #cccccc99;
+    border-radius: 5px;
+}
+
+.unique22 img {
+    /* margin-right: 5%; */
+    margin-left: 3.1%;
+    margin-right: 2%;
+    margin-top: -25px;
+}
+
+.bluesecTionmain1 {
+    width: 100%;
+    height: 925px;
+    background-color: #0E1434;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    /* border-radius: 10px; */
+    transition: background-color 0.3s ease-in-out;
+    /* cursor: pointer; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* margin-top: 15px; */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+}
+
+.bluesecTionmain {
+    display: flex;
+}
+
+.bluesecTionmain1 h2 {
+    /* margin-top: 50px; */
+    text-align: center;
+    /* font-size: 50px; */
+    background: linear-gradient(to left, #115988, #F4C72D);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    /* font-size: 36px; */
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 70px;
+    height: 42px;
+
+}
+
+
+.leftimage {
+    width: 591px;
+    height: 697px;
+    margin-left: 56px;
+    margin-top: 50px;
+}
+
+.firstcol {
+    display: flex;
+}
+
+.rightside {
+    display: flex;
+}
+
+.firstcol::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    /* Ensure the line aligns with the right edge */
+    width: 100px;
+
+    z-index: 2;
+    /* Keep it on top */
+}
+
+.structured-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+
+.vertical-line2 {
+    width: 4.91px;
+    height: 100%;
+    /* Full height of the section */
+    background-color: #ccc;
+    position: absolute;
+    left: 0;
+    top: -20px;
+}
+
+.vertical-line1 {
+    background: linear-gradient(to top, #115988, #F4C72D);
+
+    width: 4.91px;
+    height: 95%;
+    /* Full height of the section */
+    background-color: #ccc;
+    margin-top: 10.3px;
+    position: absolute;
+    left: 0;
+    /* top: 0; */
+}
+
+h3 {
+    font-size: 1.2em;
+    /* color: #333; */
+    margin-left: 20px;
+    /* Space from vertical line */
+}
+
+p,
+ul {
+    width: 61%;
+    /* font-size: 1em; */
+    font-size: 15px;
+    color: #fffafa84;
+    margin-left: 20px;
+    /* Space from vertical line */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+.section {
+    /* color: white; */
+    padding: 20px;
+    position: relative;
+}
+
+
+.sectiondiv3 {
+    width: 100%;
+    height: 652px;
+    background-color: #ffffff;
+    /* color: #fff; */
+    font-size: 18px;
+    font-weight: bold;
+    /* border-radius: 10px; */
+    transition: background-color 0.3s ease-in-out;
+    /* cursor: pointer; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* margin-top: 15px; */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.sectiondiv3 h1 {
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 50px;
+    background: linear-gradient(to left, #115988, #F4C72D);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.cards4 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* width: 75%; */
+    /* gap: 200px; */
+}
+
+.cards4 .sec1 {
+    width: 307px;
+    height: 411px;
+    flex-shrink: 0;
+    background-image: url("SECTION 4/CARD\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+}
+
+.cards4 .sec2 {
+    width: 307px;
+    height: 411px;
+    flex-shrink: 0;
+    background-image: url("SECTION 4/CARD\ 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+    /* margin: 20px; */
+}
+
+.cards4 .sec3 {
+    width: 307px;
+    height: 411px;
+    flex-shrink: 0;
+    background-image: url("SECTION 4/CARD\ 3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+}
+
+.cards4 .sec4 {
+    width: 307px;
+    height: 411px;
+    flex-shrink: 0;
+    background-image: url("SECTION 4/CARD\ 4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+}
+
+.crd1 {
+    margin: 25px;
+    position: relative;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out, background-color 0.4s ease-in-out; /* Smoother transitions */
+
+    /* Establishes a positioning context */
+
+}
+
+.cards4 .card1 {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    /* Aligns text to the bottom */
+    left: 0;
+    /* Aligns text to the left */
+    margin: 40px;
+    /* Optional margin for spacing */
+    color: white;
+    /* Example text color */
+    font-size: 24px;
+    /* Example font size */
+
+}
+
+.cards4 .card2 {
+    /* width: 50%; */
+    position: absolute;
+    bottom: 0;
+    /* Aligns text to the bottom */
+    left: 0;
+    /* Aligns text to the left */
+    margin: 40px;
+    /* Optional margin for spacing */
+    color: white;
+    /* Example text color */
+    font-size: 24px;
+    /* Example font size */
+
+}
+
+.cards4 .card3 {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    /* Aligns text to the bottom */
+    left: 0;
+    /* Aligns text to the left */
+    margin: 40px;
+    /* Optional margin for spacing */
+    color: white;
+    /* Example text color */
+    font-size: 24px;
+    /* Example font size */
+    /
+}
+
+.cards4 .card4 {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    /* Aligns text to the bottom */
+    left: 0;
+    /* Aligns text to the left */
+    margin: 40px;
+    /* Optional margin for spacing */
+    color: white;
+    /* Example text color */
+    font-size: 24px;
+    /* Example font size */
+}
+
+.tophead {
+    width: 95.7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tophead h1 {
+    color: linear-gradient(270deg, #115988 0%, #F4C72D 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Nunito Sans";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.imgarrow {
+    /* position: ; */
+    margin-left: -200px;
+    align-self: flex-end;
+
+}
+
+.content-div {
+    text-align: center;
+    padding: 20px;
+    background-color: #0E1434;
+    max-width: 100%;
+    width: 100%;
+}
+
+.gradient-text {
+    text-align: center;
+    font-size: 36px;
+    font-family: "Nunito Sans";
+    font-style: normal;
+
+    font-weight: 700;
+    background: linear-gradient(270deg, #115988 0%, #F4C72D 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.content-div img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    /* Optional: Adds rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Optional: Adds a subtle shadow */
+}
+
+/* Vertical Fade Lines between Divs */
+/* .service-div:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -2px;
+    width: px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%);
+    } */
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .services-container {
+        flex-wrap: wrap;
+    }
+
+    .service-div {
+        margin: 10px 0;
+        flex: 1 1 100%;
+    }
+
+    .faded-line {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .menu ul {
+        margin-left: 20px;
+        gap: 10px;
+    }
+
+    .menu a {
+
+        color: white;
+        text-decoration: none;
+    }
+
+    .request-box {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+}
+
+/* Parent container that holds all the items */
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* Distribute space evenly between the divs */
+    align-items: center;
+    /* Vertically center the content */
+    width: 100%;
+    padding: 20px 0;
+}
+
+/* Styling for each individual item */
+.item {
+    text-align: center;
+    flex: 1;
+    /* Each div takes equal space */
+}
+
+.value {
+    justify-content: center;
+    display: flex;
+    color: #F65275;
+
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.label {
+    color: #433D3D;
+
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Divider between the items */
+.divider1 {
+    width: 2px;
+    background: #D9D9D9;
+    flex-shrink: 0;
+    /* Vertical line */
+    height: 74px;
+    /* Height of the vertical line */
+    margin: 50px 10px;
+}
+
+/* Remove divider from the last item */
+.container .item:last-child .divider {
+    display: none;
+}
+
+/* Main container */
+.main-container {
+    display: flex;
+    /* Align children side by side */
+    background-color: #11183C;
+    /* Set background color */
+    padding: 20px;
+    /* border-radius: 10px; Optional, to add rounded corners */
+
+}
+
+/* Left div */
+.left-div {
+    width: 688px;
+    height: 320px;
+    background-image: url("SECTION 6/ytlogo.png");
+    /* background-color: #fff; For the image or content to stand out */
+    margin-right: 20px;
+    /* Space between the left and right divs */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Center content inside */
+}
+
+/* .left-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+     /* Ensure the image fits the div while maintaining its aspect ratio */
+
+
+/* Right div */
+.right-div {
+    flex: 1;
+    /* Makes the right div take up remaining space */
+    color: white;
+    /* White text color for contrast */
+}
+
+.heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.vertical-line {
+    border-left: 2px solid white;
+    height: 30px;
+    /* Small vertical line height */
+    margin-bottom: 20px;
+    /* Space between the line and paragraphs */
+}
+
+.lorem-text {
+    width: 568px;
+    color: #FFF;
+
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Main container */
+.partnership-container {
+    background-color: #ffffff;
+    /* Set background color to white */
+    padding: 40px;
+    text-align: center;
+    /* border-radius: 10px; Optional: rounded corners */
+    display: block;
+    /* Ensure the container takes up full width */
+    width: 100%;
+    /* Ensure the container spans the full width */
+}
+
+/* Heading styling */
+.partnership-heading {
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to left, #115988, #F4C72D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #11183C;
+    /* Color for the heading */
+}
+
+/* Subheading text styling */
+.partnership-subheading {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #444;
+    /* Color for the subheading */
+    margin: 0 auto 30px;
+    /* Remove any default margin and add space below */
+    width: 45%;
+    /* Ensure it spans the full width */
+    text-align: center;
+    /* Center align the subheading */
+    display: block;
+    /* Make sure the text block is treated as a block element */
+}
+
+/* Flex container for the six divs */
+.partnership-divs {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* Space between divs */
+    align-items: center;
+    flex-wrap: wrap;
+    /* Allows divs to wrap on smaller screens */
+}
+
+/* Styling for each individual div */
+.partnership-divs>div {
+    width: 294px;
+    height: 152px;
+    flex-shrink: 0;
+
+
+    /* Height of each div */
+    background-color: #FFFFFF;
+    /* Light background color for each div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 8px; Optional: rounded corners for the divs */
+    font-weight: bold;
+    color: #333;
+    border: 1px solid #E7E7E7;
+
+    /* background: #FFF */
+}
+
+/* Optionally, you can also target specific divs by class name if you need individual styles */
+.partnership-div1 {
+    background-color: #FFFFFF;
+    /* Light blue background for div 1 */
+    background-image: url("SECTION 7/STICKER 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.partnership-div2 {
+    background-color: #FFFFFF;
+    background-image: url("SECTION 7/STICKER 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover;Light gray background for div 2 */
+}
+
+.partnership-div3 {
+    background-color: #FFFFFF;
+    background-image: url("SECTION 7/STICKER\ 3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover;Lighter gray background for div 3 */
+}
+
+.partnership-div4 {
+    background-color: #FFFFFF;
+    background-image: url("SECTION 7/STICKER\ 4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover;Slightly darker gray background for div 4 */
+}
+
+/* Heading styling */
+.partnership-heading {
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to left, #115988, #F4C72D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #11183C;
+    /* Color for the heading */
+}
+
+/* Subheading text styling */
+.partnership-subheading {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #444;
+    /* Color for the subheading */
+    margin: 0 auto 30px;
+    /* Remove any default margin and add space below */
+    width: 45%;
+    /* Ensure it spans the full width */
+    text-align: center;
+    /* Center align the subheading */
+    display: block;
+    /* Make sure the text block is treated as a block element */
+}
+
+/* Flex container for the six divs */
+.partnership-divs {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* Space between divs */
+    align-items: center;
+    flex-wrap: wrap;
+    /* Allows divs to wrap on smaller screens */
+}
+
+/* Styling for each individual div */
+.partnership-divs>div {
+    width: 23%;
+    /* Each div takes up 23% of the width */
+    height: 150px;
+    /* Height of each div */
+    background-color: #FFFFFF;
+    /* Light background color for each div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 8px; Optional: rounded corners for the divs */
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+/* Main container */
+.stepstomigrate-container {
+    background-color: #11183C;
+    /* Set background color to white */
+    padding: 40px;
+    text-align: center;
+    /* border-radius: 10px; Optional: rounded corners */
+    display: block;
+    /* Ensure the container takes up full width */
+    width: 100%;
+    /* Ensure the container spans the full width */
+}
+
+/* Heading styling */
+.migrate-heading {
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    background: linear-gradient(to left, #115988, #F4C72D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #11183C;
+    /* Color for the heading */
+}
+
+/* Subheading text styling */
+.partnership-subheading {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #444;
+    /* Color for the subheading */
+    margin: 0 auto 30px;
+    /* Remove any default margin and add space below */
+    width: 45%;
+    /* Ensure it spans the full width */
+    text-align: center;
+    /* Center align the subheading */
+    display: block;
+    /* Make sure the text block is treated as a block element */
+}
+
+/* Flex container for the six divs */
+.stepstomigrate-divs {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* Space between divs */
+    align-items: center;
+    flex-wrap: wrap;
+    /* Allows divs to wrap on smaller screens */
+}
+
+/* Styling for each individual div */
+.stepstomigrate-divs>div {
+    width: 249px;
+    /* Each div takes up 23% of the width */
+    height: 179px;
+    /* Height of each div */
+    /* background-color: #FFFFFF; Light background color for each div */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 8px; Optional: rounded corners for the divs */
+    font-size: 18px;
+    font-weight: bold;
+    /* color: #333; */
+}
+
+/* Optionally, you can also target specific divs by class name if you need individual styles */
+.stepstomigrate-div1 {
+    color: white;
+    background-color: #262e55;
+    /* Light blue background for div 1 */
+    /* background-image: url(Group\ 222.png) ; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.stepstomigrate-div1 img {
+    margin-top: 35px;
+
+}
+
+.stepstomigrate-div2 img {
+    margin-top: 35px;
+
+}
+
+.stepstomigrate-div3 img {
+    margin-top: 35px;
+
+}
+
+.stepstomigrate-div4 img {
+    margin-top: 35px;
+
+}
+
+.stepstomigrate-div5 img {
+    margin-top: 35px;
+
+}
+
+.stepstomigrate-div1 span {
+    font-size: 15px;
+    padding: 10px;
+    /* margin-top: 35px; */
+
+
+}
+
+.stepstomigrate-div2 span {
+    /* margin-top: 35px; */
+    font-size: 15px;
+    padding: 10px;
+}
+
+.stepstomigrate-div3 span {
+    width: 0%;
+    /* margin-top: 35px; */
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.stepstomigrate-div4 span {
+    /* margin-top: 35px; */
+    font-size: 15px;
+    padding: 10px;
+}
+
+.stepstomigrate-div5 span {
+    /* margin-top: 35px; */
+    font-size: 15px;
+    padding: 10px;
+}
+
+.stepstomigrate-div2 {
+    color: white;
+    background-color: #262e55;
+    /* background-image: url(microsoft.png) ; */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover;Light gray background for div 2 */
+}
+
+.stepstomigrate-div3 {
+    color: white;
+    background-color: #262e55;
+    /* background-image: url(google.png) ; */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover;Lighter gray background for div 3 */
+}
+
+.stepstomigrate-div4 {
+    color: white;
+    background-color: #262e55;
+    /* background-image: url(LTIMindtree_Linear_2-1-LT-Blue-1-1\ 1.png) ; */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover;Slightly darker gray background for div 4 */
+}
+
+.stepstomigrate-div5 {
+    color: white;
+    background-color: #262e55;
+    /* Light blue background for div 1 */
+    /* background-image: url() ; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main container */
+.whatsnewots-container {
+    background-color: #0E1434;
+    padding: 40px;
+    padding-bottom: 0px;
+    /* text-align: center; */
+    display: block;
+    width: 100%;
+}
+
+
+
+/* Heading styling */
+.whatsnewots-heading {
+    /* display: flex; */
+    font-size: 20px;
+    /* font-family: Arial, sans-serif; */
+    font-weight: bold;
+    background: linear-gradient(to left, #115988, #F4C72D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -10px;
+    margin-bottom: -40px;
+    color: #11183C;
+}
+/*img*/
+.whatsnewots-container h1{
+text-align: center;
+}
+.imgleft, .imgright{
+    width: 70px;
+    position: relative;
+    bottom: 70px;
+    left: 90%;
+}
+/* Flex container for the divs */
+.whatsnewots-divs {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+/* Styling for individual divs */
+.whatsnewots-div1,
+.whatsnewots-div2,
+.whatsnewots-div3 {
+    position: relative;
+    /* For absolute positioning of span */
+    width: 30%;
+    height: 278px;
+    background-color: #262e55;
+    /* border-radius: 8px; */
+    padding: 10px;
+    box-sizing: border-box;
+    /* text-align: center; */
+}
+
+/* Span styling to position text at the bottom */
+.whatsnewots-div1 span,
+.whatsnewots-div2 span,
+.whatsnewots-div3 span {
+    position: absolute;
+    bottom: 2px;
+    left: 40%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: white;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+/* Optional: Adjust margins for images if needed */
+.whatsnewots-div1 img,
+.whatsnewots-div2 img,
+.whatsnewots-div3 img {
+
+    margin-top: 35px;
+}
+
+.whatsnewots-div1 {
+    background-image: url("SECTION 9/PHOTO\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.whatsnewots-div2 {
+    background-image: url("SECTION 9/PHOTO\ 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.whatsnewots-div3 {
+    background-image: url("SECTION 9/PHOTO\ 3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Main container for Read More section */
+.readmore-container {
+    background-color: white;
+    padding: 40px;
+    padding-top: 0;
+}
+
+/* Flex container for divs under Read More */
+.readmore-divs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* Allows divs to wrap on smaller screens */
+    gap: 20px;
+    /* Space between divs */
+}
+
+/* Styling for individual divs */
+.readmore-div {
+    position: relative;
+    /* For positioning the button */
+    width: 30%;
+    /* Each div takes up 30% of the container */
+    height: 191px;
+    background-color: #00000044;
+    /* Light background */
+    padding: 10px;
+    margin: 0;
+    /* Reset margin */
+    display: flex;
+    flex-direction: column;
+    /* Stack content vertically */
+    justify-content: space-between;
+    /* Space between text and button */
+    box-sizing: border-box;
+    /* Include padding in size calculations */
+}
+
+/* Span styling for text inside div */
+.readmore-div span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.576);
+    text-align: left;
+    margin: 10px 0;
+    /* Space around the text */
+    flex-grow: 1;
+    /* Push the button to the bottom */
+}
+
+/* Heading inside each div */
+.readmore-div h4 {
+    font-size: 16px;
+    margin: 20px;
+    /* Space below the heading */
+}
+
+/* Styling for the Read More button */
+.readmore-button {
+    position: absolute;
+    bottom: 20px;
+    /* Position button at the bottom */
+    left: 20px;
+    /* Align button to the left */
+    /* background-color: #115988; Button background color */
+    /* color: white; */
+    border: none;
+    background: transparent;
+    /* border-radius: 4px; */
+    /* padding: 8px 12px; */
+    /* font-size: 18px; */
+    /* font-weight: bold; */
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    /* text-transform: uppercase; */
+    color: #212529;
+
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* Button hover effect */
+.endsection {
+    background-image: url("LAST SECTION/BACKGROUND\ IMG.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+}
+
+.endsection1 {
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.endheading {
+    color: #FFF;
+
+    text-align: center;
+    font-family: "Nunito Sans";
+    /* font-size: 24px; */
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.endrequestsec {
+    margin: 30px;
+}
+
+.endrequestsec img {
+    margin-bottom: -15px;
+
+}
+
+.footer {
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 61px;
+    display: flex;
+
+    /* justify-content: center; */
+
+}
+
+.footerline h6 {
+    font-size: 14px;
+    margin: 20px;
+    margin-left: 40px;
+
+}
+
+
+
+
+
+
+
+
+.slider-container {
+    display: flex;
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+.slider-buttons {
+    position: absolute;
+    top: 124px;
+    right: 80px;
+    display: flex;
+    gap: 5px;
+}
+
+.slider-buttons button {
+    width: 70px;
+    height: 42.5px;
+     
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #44444400;
+}
+
+
+.anotherslidediv{
+    flex: 0 0 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: black;
+    font-size: 24px;
+}
+#leftButton{
+    background-image: url("SECTION 4/LEFT\ ARROW.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+}
+
+#rightButton{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("SECTION 4/RIGTHT\ ARROW.png");
+}
+.crd1:hover {
+    transform: scale(1.1) translateY(-10px);
+ }
